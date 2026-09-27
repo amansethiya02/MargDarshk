@@ -1,0 +1,6 @@
+{
+  "name": "LogiPulse C++ Industrial Engine",
+  "description": "High-Performance Logistics & Routing Engine in Modern C++20 for 45-Days Industrial Training Capstone Project",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

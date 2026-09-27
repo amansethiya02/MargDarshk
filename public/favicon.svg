@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Rounded App Icon Background -->
+  <rect width="64" height="64" rx="16" fill="url(#grad)" />
+
+  <!-- Outer Compass Ring -->
+  <circle cx="32" cy="32" r="22" stroke="white" stroke-width="2.5" stroke-opacity="0.3" stroke-dasharray="4 3" />
+
+  <!-- Compass / Navigation Arrow Pointing North-East -->
+  <!-- North (Red/Coral Tip) -->
+  <polygon points="32,12 39,32 32,27" fill="#ef4444" filter="url(#shadow)" />
+  <!-- South (White/Silver Needle) -->
+  <polygon points="32,52 39,32 32,27" fill="#ffffff" fill-opacity="0.85" />
+  <!-- Left Side White Needle -->
+  <polygon points="32,12 25,32 32,27" fill="#fca5a5" />
+  <polygon points="32,52 25,32 32,27" fill="#cbd5e1" />
+
+  <!-- Center Pivot Pin -->
+  <circle cx="32" cy="32" r="3.5" fill="#1e293b" />
+  <circle cx="32" cy="32" r="1.5" fill="#ffffff" />
+</svg>
